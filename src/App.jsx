@@ -26,7 +26,7 @@ function App() {
   }
   return (
     <div className='w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat'
-     style={{backgroundImage: `url(https://images.pexels.com/photos/4497591/pexels-photo-4497591.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)`}}>
+     style={{backgroundImage: `url(https://static.vecteezy.com/system/resources/thumbnails/026/602/799/original/stock-market-abstract-finance-background-with-motion-graph-charts-diagrams-of-financial-statistics-4k-resolution-video.jpg)`}}>
       <div className='w-full'>
         <div className='w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30'>
           <form onSubmit={(e) => {
@@ -48,7 +48,7 @@ function App() {
              selectedCurrency={to} amountDisabled />
             </div>
             <button type='submit' className='w-full bg-blue-600 text-white px-4 py-3 rounded-lg'>Convert {from.toUpperCase()} to {to.toUpperCase()}
-              
+
             </button>
           </form>
         </div>
